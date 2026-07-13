@@ -7,8 +7,8 @@ const path = "./data.json";
 const git = simpleGit();
 
 const getRandomDateIn2024 = () => {
-  const start = moment("2024-01-01T00:00:00Z");
-  const end = moment("2024-12-31T23:59:59Z");
+  const start = moment("2023-01-01T00:00:00Z");
+  const end = moment("2023-12-31T23:59:59Z");
   const diffDays = end.diff(start, "days");
   const randomDay = random.int(0, diffDays);
   return start.clone().add(randomDay, "days").format();
