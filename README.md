@@ -1,0 +1,2 @@
+# erm-ai
+AI B2B SAAS N8N STARTUP
